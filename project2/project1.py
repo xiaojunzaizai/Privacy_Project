@@ -97,7 +97,7 @@ def check_in_other_neighbor(neighbor_pair_list,other_G,pair_dir,other_node):
 
 # Calculate the score
 def get_score(node1_degree,node2_degree,count):
-    score = count/((math.sqrt(node1_degree))*(node2_degree))
+    score = count/((math.sqrt(node1_degree))*(math.sqrt(node2_degree)))
     return score
 
 
